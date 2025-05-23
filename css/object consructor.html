@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+      <h1>hello world</h1>
+      <p id="test"></p> 
+
+<script>
+function demo(name,age){
+    this.firstname=name;
+    this.hisname=age;
+
+}
+  let a=new demo("vasanthi",20);
+  let b=new demo("vasanthi",20);
+  document.getElementById("test").innerHTML="hello," +a.firstname+" age is"+a.hisname;
+</script>
+    
+</body>
+</html>
